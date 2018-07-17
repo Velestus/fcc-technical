@@ -1,0 +1,48 @@
+.Content {
+    position: absolute;
+    margin-left: 310px;
+    padding-left: 30px;
+}
+.main-section > * {
+    padding-left: 12px;
+}
+.main-section header:first-child {
+    font-size: 1.8em;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-weight: bold;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+@media only screen and (max-width: 815px) {
+  #main-doc{
+    position: relative;
+    margin-left:0px;
+    margin-top:270px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #main-doc{
+    margin-left:-10px;
+  }
+  code{
+    margin-left:-20px;
+    width:100%;
+    padding:15px;
+    padding-left:10px;
+    padding-right:45px;
+    min-width:233px;
+  }
+}
